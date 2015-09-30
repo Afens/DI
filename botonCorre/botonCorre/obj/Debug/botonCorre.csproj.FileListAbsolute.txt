@@ -1,0 +1,9 @@
+c:\users\usuario\documents\visual studio 2015\Projects\botonCorre\botonCorre\bin\Debug\botonCorre.exe.config
+C:\Users\Usuario\Documents\Visual Studio 2015\Projects\botonCorre\botonCorre\bin\Debug\botonCorre.exe
+C:\Users\Usuario\Documents\Visual Studio 2015\Projects\botonCorre\botonCorre\bin\Debug\botonCorre.pdb
+C:\Users\Usuario\Documents\Visual Studio 2015\Projects\botonCorre\botonCorre\obj\Debug\botonCorre.csprojResolveAssemblyReference.cache
+C:\Users\Usuario\Documents\Visual Studio 2015\Projects\botonCorre\botonCorre\obj\Debug\botonCorre.F1.resources
+C:\Users\Usuario\Documents\Visual Studio 2015\Projects\botonCorre\botonCorre\obj\Debug\botonCorre.Properties.Resources.resources
+C:\Users\Usuario\Documents\Visual Studio 2015\Projects\botonCorre\botonCorre\obj\Debug\botonCorre.csproj.GenerateResource.Cache
+C:\Users\Usuario\Documents\Visual Studio 2015\Projects\botonCorre\botonCorre\obj\Debug\botonCorre.exe
+C:\Users\Usuario\Documents\Visual Studio 2015\Projects\botonCorre\botonCorre\obj\Debug\botonCorre.pdb

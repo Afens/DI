@@ -16,3 +16,12 @@ C:\Users\Usuario\Documents\GitHub\DI\botonCorre\botonCorre\obj\Debug\botonCorre.
 C:\Users\Usuario\Documents\GitHub\DI\botonCorre\botonCorre\obj\Debug\botonCorre.F1.resources
 C:\Users\Usuario\Documents\GitHub\DI\botonCorre\botonCorre\obj\Debug\botonCorre.Properties.Resources.resources
 C:\Users\Usuario\Documents\GitHub\DI\botonCorre\botonCorre\obj\Debug\botonCorre.csproj.GenerateResource.Cache
+C:\Users\Afens\Documents\GitHub\DI\botonCorre\botonCorre\bin\Debug\botonCorre.exe.config
+C:\Users\Afens\Documents\GitHub\DI\botonCorre\botonCorre\obj\Debug\botonCorre.exe
+C:\Users\Afens\Documents\GitHub\DI\botonCorre\botonCorre\obj\Debug\botonCorre.pdb
+C:\Users\Afens\Documents\GitHub\DI\botonCorre\botonCorre\bin\Debug\botonCorre.exe
+C:\Users\Afens\Documents\GitHub\DI\botonCorre\botonCorre\bin\Debug\botonCorre.pdb
+C:\Users\Afens\Documents\GitHub\DI\botonCorre\botonCorre\obj\Debug\botonCorre.csprojResolveAssemblyReference.cache
+C:\Users\Afens\Documents\GitHub\DI\botonCorre\botonCorre\obj\Debug\botonCorre.F1.resources
+C:\Users\Afens\Documents\GitHub\DI\botonCorre\botonCorre\obj\Debug\botonCorre.Properties.Resources.resources
+C:\Users\Afens\Documents\GitHub\DI\botonCorre\botonCorre\obj\Debug\botonCorre.csproj.GenerateResource.Cache

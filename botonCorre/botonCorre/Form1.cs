@@ -19,10 +19,16 @@ namespace botonCorre
         public F1()
         {
             InitializeComponent();
-            personas.Add(new PersonaBoton(this));
-            personas.g
+            nacer();
         }
         
+        private void nacer()
+        {
+            Button btn = new Button();
+            Controls.Add(btn);
+            btn.Click += new EventHandler(matar);     
+            personas.Add(new PersonaBoton(this.Size,btn));
+        }
         private void F1_MouseMove(object sender, MouseEventArgs e)
         {
             foreach (PersonaBoton person in personas)
@@ -41,7 +47,7 @@ namespace botonCorre
                 persona.actualizar();
             }
             if (cont % 3 == 0)
-                personas.Add(new PersonaBoton(this));
+                nacer();
             cont++;
         }
 
@@ -52,12 +58,19 @@ namespace botonCorre
             {
                 if (completa.btn==Sender)
                 {
+                    Controls.Remove((Button)Sender);
                     //completa.btn.Dispose();
                     break;
                 }
                 i++;
             }
             personas.RemoveAt(i);
+
+            if (personas.Count==0)
+            {
+                timer1.Stop();
+                MessageBox.Show("Has Ganado");
+            }
         }
     }
 }

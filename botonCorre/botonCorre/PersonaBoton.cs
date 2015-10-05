@@ -13,11 +13,10 @@ namespace botonCorre
         public Persona pers;
         public Button btn;
 
-        public PersonaBoton(Form form)
+        public PersonaBoton(Size tam, Button boton)
         {
-            pers = new Persona(form.Size);
-            btn = new Button();
-            form.Controls.Add(btn);
+            pers = new Persona(tam);
+            btn = boton;
             btn.BackgroundImage = Properties.Resources.Diana;
             btn.BackgroundImageLayout = ImageLayout.Zoom;
             btn.FlatAppearance.BorderSize = 0;

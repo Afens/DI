@@ -11,7 +11,7 @@ namespace botonCorre
     class Persona
     {
         int velocidad=3;
-        int tamanno=30;
+        int tamanno;
         Image img;
         Point posicion;
         int lejos;
@@ -21,10 +21,11 @@ namespace botonCorre
         public Persona(Size marco)
         {
             Random r = new Random();
-            posicion = new Point(r.Next(marco.Width-tamanno), r.Next(marco.Height-tamanno));
+            posicion = new Point(r.Next(espacio,marco.Width-tamanno-espacio), 
+                r.Next(espacio, marco.Height-tamanno-espacio));
             lejos = r.Next(100, 251);
-            crecimiento = r.Next(1, 4);
-            
+            tamanno = r.Next(30, 50);
+            crecimiento = r.Next(1, 4);           
         }
 
 
@@ -55,15 +56,21 @@ namespace botonCorre
             }
         }
 
-        public Point mostrar()
+        public Point lugar()
         {
             return posicion;
         }
+
         public Size tam()
         {
             return new Size(tamanno,tamanno);
         }
 
+        public void crecer()
+        {
+            tamanno += crecimiento;
+            lejos += crecimiento;
+        }
 
 
     }

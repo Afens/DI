@@ -28,23 +28,21 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btn = new System.Windows.Forms.Button();
+            this.components = new System.ComponentModel.Container();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
-            // btn
+            // timer1
             // 
-            this.btn.Location = new System.Drawing.Point(314, 212);
-            this.btn.Name = "btn";
-            this.btn.Size = new System.Drawing.Size(27, 23);
-            this.btn.TabIndex = 0;
-            this.btn.UseVisualStyleBackColor = true;
+            this.timer1.Enabled = true;
+            this.timer1.Interval = 800;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
             // F1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(697, 457);
-            this.Controls.Add(this.btn);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "F1";
             this.Text = "Boton Escape";
@@ -54,8 +52,7 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.Button btn;
+        private System.Windows.Forms.Timer timer1;
     }
 }
 

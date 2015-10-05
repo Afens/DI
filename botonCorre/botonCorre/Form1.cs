@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -13,22 +14,50 @@ namespace botonCorre
 {
     public partial class F1 : Form
     {
-        Persona person1;
+        int cont=0;
+        ArrayList personas = new ArrayList();
         public F1()
         {
             InitializeComponent();
-            person1 = new Persona(this.Size);
-            btn.Location = person1.mostrar();
-            btn.Size = person1.tam();
+            personas.Add(new PersonaBoton(this));
+            personas.g
         }
         
         private void F1_MouseMove(object sender, MouseEventArgs e)
         {
-            person1.mirar(this.Size, e.Location);
-            btn.Location = person1.mostrar();
-            btn.Size = person1.tam();
+            foreach (PersonaBoton person in personas)
+            {
+                person.actuRaton(this.Size, e.Location);
+            }
 
         }
-        
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {           
+            
+            foreach (PersonaBoton persona in personas)
+            {
+                persona.pers.crecer();
+                persona.actualizar();
+            }
+            if (cont % 3 == 0)
+                personas.Add(new PersonaBoton(this));
+            cont++;
+        }
+
+        public void matar(object Sender, EventArgs e)
+        {
+            int i = 0;
+            foreach (PersonaBoton completa in personas)
+            {
+                if (completa.btn==Sender)
+                {
+                    //completa.btn.Dispose();
+                    break;
+                }
+                i++;
+            }
+            personas.RemoveAt(i);
+        }
     }
 }

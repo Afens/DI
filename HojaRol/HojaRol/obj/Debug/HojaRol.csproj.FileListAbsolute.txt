@@ -1,0 +1,9 @@
+C:\Users\Usuario\Documents\GitHub\DI\HojaRol\HojaRol\bin\Debug\HojaRol.exe.config
+C:\Users\Usuario\Documents\GitHub\DI\HojaRol\HojaRol\bin\Debug\HojaRol.exe
+C:\Users\Usuario\Documents\GitHub\DI\HojaRol\HojaRol\bin\Debug\HojaRol.pdb
+C:\Users\Usuario\Documents\GitHub\DI\HojaRol\HojaRol\obj\Debug\HojaRol.csprojResolveAssemblyReference.cache
+C:\Users\Usuario\Documents\GitHub\DI\HojaRol\HojaRol\obj\Debug\HojaRol.Form1.resources
+C:\Users\Usuario\Documents\GitHub\DI\HojaRol\HojaRol\obj\Debug\HojaRol.Properties.Resources.resources
+C:\Users\Usuario\Documents\GitHub\DI\HojaRol\HojaRol\obj\Debug\HojaRol.csproj.GenerateResource.Cache
+C:\Users\Usuario\Documents\GitHub\DI\HojaRol\HojaRol\obj\Debug\HojaRol.exe
+C:\Users\Usuario\Documents\GitHub\DI\HojaRol\HojaRol\obj\Debug\HojaRol.pdb

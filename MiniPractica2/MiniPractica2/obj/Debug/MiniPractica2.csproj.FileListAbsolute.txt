@@ -1,0 +1,9 @@
+C:\Users\Usuario\Documents\GitHub\DI\MiniPractica2\MiniPractica2\bin\Debug\MiniPractica2.exe.config
+C:\Users\Usuario\Documents\GitHub\DI\MiniPractica2\MiniPractica2\bin\Debug\MiniPractica2.exe
+C:\Users\Usuario\Documents\GitHub\DI\MiniPractica2\MiniPractica2\bin\Debug\MiniPractica2.pdb
+C:\Users\Usuario\Documents\GitHub\DI\MiniPractica2\MiniPractica2\obj\Debug\MiniPractica2.csprojResolveAssemblyReference.cache
+C:\Users\Usuario\Documents\GitHub\DI\MiniPractica2\MiniPractica2\obj\Debug\MiniPractica2.Form1.resources
+C:\Users\Usuario\Documents\GitHub\DI\MiniPractica2\MiniPractica2\obj\Debug\MiniPractica2.Properties.Resources.resources
+C:\Users\Usuario\Documents\GitHub\DI\MiniPractica2\MiniPractica2\obj\Debug\MiniPractica2.csproj.GenerateResource.Cache
+C:\Users\Usuario\Documents\GitHub\DI\MiniPractica2\MiniPractica2\obj\Debug\MiniPractica2.exe
+C:\Users\Usuario\Documents\GitHub\DI\MiniPractica2\MiniPractica2\obj\Debug\MiniPractica2.pdb

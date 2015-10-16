@@ -21,31 +21,25 @@ namespace MiniPractica2
 
         private void Crear_Tick(object sender, EventArgs e)
         {
-            int x=anterior.X, y=anterior.Y;
-            label1.Text = x.ToString();
-            label2.Text = y.ToString();
-            Point posicion;
-            if(x>this.Size.Width-15 && y > this.Size.Height - 15)
+            int x=anterior.X, y=anterior.Y;           
+            CheckBox cb = new CheckBox();            
+            if (y + 20 > this.Size.Height - 15)
             {
-                Crear.Enabled = false;
+                cb.Location = new Point(x + 20, 12);
             }
             else
             {
-                if (y + 20 > this.Size.Height - 15)
-                {
-                    posicion = new Point(x + 20, y);
-                }
-                else
-                {
-                    posicion = new Point(x , y + 20);
-                }
-                CheckBox cb = new CheckBox();
-                Controls.Add(cb);
-                cb.Location = posicion;
-                anterior = posicion;
+                cb.Location = new Point(x , y + 20);     
             }
+            Controls.Add(cb);
+            anterior = cb.Location;
             
-            
+
+            if (x > this.Size.Width - 15 || y > this.Size.Height - 15)
+            {
+                Crear.Enabled = false;
+            }
+
 
         }
 
@@ -56,6 +50,11 @@ namespace MiniPractica2
                 if (x is CheckBox)
                     ((CheckBox)x).Checked = false;
             }
+        }
+
+        private void Form1_MouseMove(object sender, MouseEventArgs e)
+        {
+            
         }
     }
 }

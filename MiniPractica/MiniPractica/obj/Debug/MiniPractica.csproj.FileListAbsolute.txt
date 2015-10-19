@@ -7,3 +7,12 @@ C:\Users\Usuario\Documents\GitHub\DI\MiniPractica\MiniPractica\obj\Debug\MiniPra
 C:\Users\Usuario\Documents\GitHub\DI\MiniPractica\MiniPractica\obj\Debug\MiniPractica.csproj.GenerateResource.Cache
 C:\Users\Usuario\Documents\GitHub\DI\MiniPractica\MiniPractica\obj\Debug\MiniPractica.exe
 C:\Users\Usuario\Documents\GitHub\DI\MiniPractica\MiniPractica\obj\Debug\MiniPractica.pdb
+C:\Users\Afens\Documents\GitHub\DI\MiniPractica\MiniPractica\bin\Debug\MiniPractica.exe.config
+C:\Users\Afens\Documents\GitHub\DI\MiniPractica\MiniPractica\obj\Debug\MiniPractica.exe
+C:\Users\Afens\Documents\GitHub\DI\MiniPractica\MiniPractica\obj\Debug\MiniPractica.pdb
+C:\Users\Afens\Documents\GitHub\DI\MiniPractica\MiniPractica\bin\Debug\MiniPractica.exe
+C:\Users\Afens\Documents\GitHub\DI\MiniPractica\MiniPractica\bin\Debug\MiniPractica.pdb
+C:\Users\Afens\Documents\GitHub\DI\MiniPractica\MiniPractica\obj\Debug\MiniPractica.csprojResolveAssemblyReference.cache
+C:\Users\Afens\Documents\GitHub\DI\MiniPractica\MiniPractica\obj\Debug\MiniPractica.Form1.resources
+C:\Users\Afens\Documents\GitHub\DI\MiniPractica\MiniPractica\obj\Debug\MiniPractica.Properties.Resources.resources
+C:\Users\Afens\Documents\GitHub\DI\MiniPractica\MiniPractica\obj\Debug\MiniPractica.csproj.GenerateResource.Cache

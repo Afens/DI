@@ -7,3 +7,6 @@ C:\Users\Usuario\Documents\GitHub\DI\PruebaCombo\PruebaCombo\bin\Debug\PruebaCom
 C:\Users\Usuario\Documents\GitHub\DI\PruebaCombo\PruebaCombo\bin\Debug\PruebaCombo.pdb
 C:\Users\Usuario\Documents\GitHub\DI\PruebaCombo\PruebaCombo\obj\Debug\PruebaCombo.exe
 C:\Users\Usuario\Documents\GitHub\DI\PruebaCombo\PruebaCombo\obj\Debug\PruebaCombo.pdb
+C:\Users\Afens\Documents\GitHub\DI\PruebaCombo\PruebaCombo\bin\Debug\PruebaCombo.exe.config
+C:\Users\Afens\Documents\GitHub\DI\PruebaCombo\PruebaCombo\obj\Debug\PruebaCombo.exe
+C:\Users\Afens\Documents\GitHub\DI\PruebaCombo\PruebaCombo\obj\Debug\PruebaCombo.pdb

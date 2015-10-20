@@ -1,0 +1,9 @@
+C:\Users\Usuario\Documents\GitHub\DI\MiniPracticaRadioButton\MiniPracticaRadioButton\bin\Debug\MiniPracticaRadioButton.exe.config
+C:\Users\Usuario\Documents\GitHub\DI\MiniPracticaRadioButton\MiniPracticaRadioButton\bin\Debug\MiniPracticaRadioButton.exe
+C:\Users\Usuario\Documents\GitHub\DI\MiniPracticaRadioButton\MiniPracticaRadioButton\bin\Debug\MiniPracticaRadioButton.pdb
+C:\Users\Usuario\Documents\GitHub\DI\MiniPracticaRadioButton\MiniPracticaRadioButton\obj\Debug\MiniPracticaRadioButton.csprojResolveAssemblyReference.cache
+C:\Users\Usuario\Documents\GitHub\DI\MiniPracticaRadioButton\MiniPracticaRadioButton\obj\Debug\MiniPracticaRadioButton.Form1.resources
+C:\Users\Usuario\Documents\GitHub\DI\MiniPracticaRadioButton\MiniPracticaRadioButton\obj\Debug\MiniPracticaRadioButton.Properties.Resources.resources
+C:\Users\Usuario\Documents\GitHub\DI\MiniPracticaRadioButton\MiniPracticaRadioButton\obj\Debug\MiniPracticaRadioButton.csproj.GenerateResource.Cache
+C:\Users\Usuario\Documents\GitHub\DI\MiniPracticaRadioButton\MiniPracticaRadioButton\obj\Debug\MiniPracticaRadioButton.exe
+C:\Users\Usuario\Documents\GitHub\DI\MiniPracticaRadioButton\MiniPracticaRadioButton\obj\Debug\MiniPracticaRadioButton.pdb

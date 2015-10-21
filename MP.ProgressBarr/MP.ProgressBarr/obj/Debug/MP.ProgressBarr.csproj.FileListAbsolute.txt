@@ -1,0 +1,9 @@
+C:\Users\Usuario\Documents\GitHub\DI\MP.ProgressBarr\MP.ProgressBarr\bin\Debug\MP.ProgressBarr.exe.config
+C:\Users\Usuario\Documents\GitHub\DI\MP.ProgressBarr\MP.ProgressBarr\bin\Debug\MP.ProgressBarr.exe
+C:\Users\Usuario\Documents\GitHub\DI\MP.ProgressBarr\MP.ProgressBarr\bin\Debug\MP.ProgressBarr.pdb
+C:\Users\Usuario\Documents\GitHub\DI\MP.ProgressBarr\MP.ProgressBarr\obj\Debug\MP.ProgressBarr.csprojResolveAssemblyReference.cache
+C:\Users\Usuario\Documents\GitHub\DI\MP.ProgressBarr\MP.ProgressBarr\obj\Debug\MP.ProgressBarr.Form1.resources
+C:\Users\Usuario\Documents\GitHub\DI\MP.ProgressBarr\MP.ProgressBarr\obj\Debug\MP.ProgressBarr.Properties.Resources.resources
+C:\Users\Usuario\Documents\GitHub\DI\MP.ProgressBarr\MP.ProgressBarr\obj\Debug\MP.ProgressBarr.csproj.GenerateResource.Cache
+C:\Users\Usuario\Documents\GitHub\DI\MP.ProgressBarr\MP.ProgressBarr\obj\Debug\MP.ProgressBarr.exe
+C:\Users\Usuario\Documents\GitHub\DI\MP.ProgressBarr\MP.ProgressBarr\obj\Debug\MP.ProgressBarr.pdb

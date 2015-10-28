@@ -63,9 +63,9 @@ namespace botonCorre.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Diana {
+        internal static System.Drawing.Bitmap g3 {
             get {
-                object obj = ResourceManager.GetObject("Diana", resourceCulture);
+                object obj = ResourceManager.GetObject("g3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -59,6 +59,17 @@ namespace MP.ProgressBarr
         private void progressBar5_MouseClick(object sender, MouseEventArgs e)
         {
             progressBar5.Value =(int)Math.Round((double)e.X * progressBar5.Maximum / progressBar5.Width);
+            
+        }
+
+        private void actuPB()
+        {
+            
+        }
+
+        private void theBestProgressBarEver(object sender, MouseEventArgs e)
+        {
+            theBestProgressBarEver1.Value = (int)Math.Round((double)e.X * theBestProgressBarEver1.Maximum / theBestProgressBarEver1.Width);
         }
     }
 }

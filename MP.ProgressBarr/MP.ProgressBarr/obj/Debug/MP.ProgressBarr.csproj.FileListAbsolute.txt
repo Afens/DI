@@ -7,3 +7,4 @@ C:\Users\Usuario\Documents\GitHub\DI\MP.ProgressBarr\MP.ProgressBarr\obj\Debug\M
 C:\Users\Usuario\Documents\GitHub\DI\MP.ProgressBarr\MP.ProgressBarr\obj\Debug\MP.ProgressBarr.csproj.GenerateResource.Cache
 C:\Users\Usuario\Documents\GitHub\DI\MP.ProgressBarr\MP.ProgressBarr\obj\Debug\MP.ProgressBarr.exe
 C:\Users\Usuario\Documents\GitHub\DI\MP.ProgressBarr\MP.ProgressBarr\obj\Debug\MP.ProgressBarr.pdb
+C:\Users\Usuario\Documents\GitHub\DI\MP.ProgressBarr\MP.ProgressBarr\bin\Debug\CustomControls.dll

@@ -8,16 +8,18 @@ using System.Windows.Forms;
 
 namespace botonCorre
 {
+    /*  */
     class Persona
     {
         int velocidad=3;
         int tamanno;
-        Image img;
         Point posicion;
         int lejos;
         int espacio = 10;
         int crecimiento;
 
+        /* Constructor de la persona,
+        hay que pasarle el campo donde queremos que se situe */
         public Persona(Size marco)
         {
             Random r = new Random();
@@ -28,7 +30,8 @@ namespace botonCorre
             crecimiento = r.Next(1, 4);           
         }
 
-
+        /* Comprueba si el raton esta cerca de la posicion de la persona,
+        en caso de que este llama a huir */
         public void mirar(Size marco, Point e)
         {
             if(lejos > Math.Sqrt(Math.Pow(posicion.X - e.X, 2) + Math.Pow(posicion.Y - e.Y, 2)))
@@ -36,6 +39,7 @@ namespace botonCorre
                 huir(marco, e);
             }
         }
+        /* Huye de la posicion del raton, respecto de la persona. */ 
         public void huir(Size marco, Point e)
         {
             if (posicion.X + tamanno / 2 > e.X && posicion.X + tamanno < marco.Width-espacio)
@@ -55,17 +59,18 @@ namespace botonCorre
                 posicion.Y -= velocidad;
             }
         }
-
+        /* Devuelve la posicion de la Persona */
         public Point lugar()
         {
             return posicion;
         }
-
+        /* Devuelve un nuevo Size de la persoan */
         public Size tam()
         {
             return new Size(tamanno,tamanno);
         }
 
+        /* Hace crecer a la persona */
         public void crecer()
         {
             tamanno += crecimiento;

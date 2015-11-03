@@ -1,0 +1,9 @@
+C:\Users\Usuario\Documents\GitHub\DI\MP.Botonera\MP.Botonera\bin\Debug\MP.Botonera.exe.config
+C:\Users\Usuario\Documents\GitHub\DI\MP.Botonera\MP.Botonera\bin\Debug\MP.Botonera.exe
+C:\Users\Usuario\Documents\GitHub\DI\MP.Botonera\MP.Botonera\bin\Debug\MP.Botonera.pdb
+C:\Users\Usuario\Documents\GitHub\DI\MP.Botonera\MP.Botonera\obj\Debug\MP.Botonera.csprojResolveAssemblyReference.cache
+C:\Users\Usuario\Documents\GitHub\DI\MP.Botonera\MP.Botonera\obj\Debug\MP.Botonera.Form1.resources
+C:\Users\Usuario\Documents\GitHub\DI\MP.Botonera\MP.Botonera\obj\Debug\MP.Botonera.Properties.Resources.resources
+C:\Users\Usuario\Documents\GitHub\DI\MP.Botonera\MP.Botonera\obj\Debug\MP.Botonera.csproj.GenerateResource.Cache
+C:\Users\Usuario\Documents\GitHub\DI\MP.Botonera\MP.Botonera\obj\Debug\MP.Botonera.exe
+C:\Users\Usuario\Documents\GitHub\DI\MP.Botonera\MP.Botonera\obj\Debug\MP.Botonera.pdb

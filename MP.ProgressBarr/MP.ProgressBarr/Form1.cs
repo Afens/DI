@@ -60,16 +60,25 @@ namespace MP.ProgressBarr
         {
             progressBar5.Value =(int)Math.Round((double)e.X * progressBar5.Maximum / progressBar5.Width);
             
-        }
+            int percent = (int)(((double)(progressBar5.Value - progressBar5.Minimum) /
+                        (double)(progressBar5.Maximum - progressBar5.Minimum)) * 100);
+            using (Graphics gr = progressBar5.CreateGraphics())
+            {
+                gr.DrawString(percent.ToString() + "%", SystemFonts.DefaultFont, Brushes.Black,
+                    new PointF(
+                        progressBar5.Width / 2 - (
+                            gr.MeasureString(percent.ToString() + "%", SystemFonts.DefaultFont)
+                        .Width / 2.0F),
+                        progressBar5.Height / 2 - (
+                            gr.MeasureString(percent.ToString() + "%", SystemFonts.DefaultFont)
+                        .Height / 2.0F)
+                        )
+                    );
 
-        private void actuPB()
-        {
+            }
             
         }
 
-        private void theBestProgressBarEver(object sender, MouseEventArgs e)
-        {
-            theBestProgressBarEver1.Value = (int)Math.Round((double)e.X * theBestProgressBarEver1.Maximum / theBestProgressBarEver1.Width);
-        }
+
     }
 }

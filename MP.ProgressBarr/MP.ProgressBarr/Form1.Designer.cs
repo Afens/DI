@@ -34,8 +34,8 @@
             this.progressBar2 = new System.Windows.Forms.ProgressBar();
             this.progressBar3 = new System.Windows.Forms.ProgressBar();
             this.progressBar4 = new System.Windows.Forms.ProgressBar();
-            this.progressBar5 = new System.Windows.Forms.ProgressBar();
-            this.theBestProgressBarEver1 = new CustomControls.TheBestProgressBarEver();
+            this.progressBar5 = new Class1();
+
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -103,31 +103,13 @@
             this.progressBar5.Size = new System.Drawing.Size(260, 23);
             this.progressBar5.TabIndex = 6;
             this.progressBar5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.progressBar5_MouseClick);
-            // 
-            // theBestProgressBarEver1
-            // 
-            this.theBestProgressBarEver1.BarColor = System.Drawing.SystemColors.Highlight;
-            this.theBestProgressBarEver1.CenterText = null;
-            this.theBestProgressBarEver1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.theBestProgressBarEver1.Location = new System.Drawing.Point(13, 223);
-            this.theBestProgressBarEver1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.theBestProgressBarEver1.Maximum = 100;
-            this.theBestProgressBarEver1.Minimum = 0;
-            this.theBestProgressBarEver1.Name = "theBestProgressBarEver1";
-            this.theBestProgressBarEver1.ShowPercentage = false;
-            this.theBestProgressBarEver1.Size = new System.Drawing.Size(258, 27);
-            this.theBestProgressBarEver1.Step = 10;
-            this.theBestProgressBarEver1.Style = System.Windows.Forms.ProgressBarStyle.Blocks;
-            this.theBestProgressBarEver1.TabIndex = 7;
-            this.theBestProgressBarEver1.Value = 10;
-            this.theBestProgressBarEver1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.theBestProgressBarEver);
+            
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 262);
-            this.Controls.Add(this.theBestProgressBarEver1);
             this.Controls.Add(this.progressBar5);
             this.Controls.Add(this.progressBar4);
             this.Controls.Add(this.progressBar3);
@@ -152,7 +134,7 @@
         private System.Windows.Forms.ProgressBar progressBar3;
         private System.Windows.Forms.ProgressBar progressBar4;
         private System.Windows.Forms.ProgressBar progressBar5;
-        private CustomControls.TheBestProgressBarEver theBestProgressBarEver1;
+
     }
 }
 

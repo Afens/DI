@@ -28,16 +28,18 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.progressBar1 = new System.Windows.Forms.ProgressBar();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.progressBar2 = new System.Windows.Forms.ProgressBar();
             this.progressBar3 = new System.Windows.Forms.ProgressBar();
             this.progressBar4 = new System.Windows.Forms.ProgressBar();
-            this.progressBar5 = new Class1();
-
+            this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
+            this.progressBar5 = new MP.ProgressBarr.Class1();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
             this.SuspendLayout();
             // 
             // progressBar1
@@ -95,6 +97,10 @@
             this.progressBar4.TabIndex = 5;
             this.progressBar4.MouseClick += new System.Windows.Forms.MouseEventHandler(this.progressBar4_MouseClick);
             // 
+            // errorProvider1
+            // 
+            this.errorProvider1.ContainerControl = this;
+            // 
             // progressBar5
             // 
             this.progressBar5.Location = new System.Drawing.Point(12, 197);
@@ -103,7 +109,6 @@
             this.progressBar5.Size = new System.Drawing.Size(260, 23);
             this.progressBar5.TabIndex = 6;
             this.progressBar5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.progressBar5_MouseClick);
-            
             // 
             // Form1
             // 
@@ -121,6 +126,7 @@
             this.Text = "Form1";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -133,8 +139,8 @@
         private System.Windows.Forms.ProgressBar progressBar2;
         private System.Windows.Forms.ProgressBar progressBar3;
         private System.Windows.Forms.ProgressBar progressBar4;
-        private System.Windows.Forms.ProgressBar progressBar5;
-
+        private System.Windows.Forms.ErrorProvider errorProvider1;
+        private Class1 progressBar5;
     }
 }
 

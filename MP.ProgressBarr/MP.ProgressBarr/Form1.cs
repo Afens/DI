@@ -56,6 +56,7 @@ namespace MP.ProgressBarr
         {           
                 progressBar4.Value = e.X;          
         }
+        
         private void progressBar5_MouseClick(object sender, MouseEventArgs e)
         {
             progressBar5.Value =(int)Math.Round((double)e.X * progressBar5.Maximum / progressBar5.Width);
@@ -76,8 +77,12 @@ namespace MP.ProgressBarr
                     );
 
             }
-            
+
+            Refresh();//
+
+
         }
+        
 
 
     }

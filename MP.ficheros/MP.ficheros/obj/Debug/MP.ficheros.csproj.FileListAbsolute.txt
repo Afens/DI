@@ -1,0 +1,9 @@
+C:\Users\Usuario\Documents\GitHub\DI\MP.ficheros\MP.ficheros\bin\Debug\MP.ficheros.exe.config
+C:\Users\Usuario\Documents\GitHub\DI\MP.ficheros\MP.ficheros\bin\Debug\MP.ficheros.exe
+C:\Users\Usuario\Documents\GitHub\DI\MP.ficheros\MP.ficheros\bin\Debug\MP.ficheros.pdb
+C:\Users\Usuario\Documents\GitHub\DI\MP.ficheros\MP.ficheros\obj\Debug\MP.ficheros.csprojResolveAssemblyReference.cache
+C:\Users\Usuario\Documents\GitHub\DI\MP.ficheros\MP.ficheros\obj\Debug\MP.ficheros.Form1.resources
+C:\Users\Usuario\Documents\GitHub\DI\MP.ficheros\MP.ficheros\obj\Debug\MP.ficheros.Properties.Resources.resources
+C:\Users\Usuario\Documents\GitHub\DI\MP.ficheros\MP.ficheros\obj\Debug\MP.ficheros.csproj.GenerateResource.Cache
+C:\Users\Usuario\Documents\GitHub\DI\MP.ficheros\MP.ficheros\obj\Debug\MP.ficheros.exe
+C:\Users\Usuario\Documents\GitHub\DI\MP.ficheros\MP.ficheros\obj\Debug\MP.ficheros.pdb

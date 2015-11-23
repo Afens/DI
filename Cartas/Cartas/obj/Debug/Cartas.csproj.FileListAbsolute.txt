@@ -1,0 +1,10 @@
+C:\Users\Usuario\Documents\GitHub\DI\Cartas\Cartas\bin\Debug\Cartas.exe.config
+C:\Users\Usuario\Documents\GitHub\DI\Cartas\Cartas\bin\Debug\Cartas.exe
+C:\Users\Usuario\Documents\GitHub\DI\Cartas\Cartas\bin\Debug\Cartas.pdb
+C:\Users\Usuario\Documents\GitHub\DI\Cartas\Cartas\obj\Debug\Cartas.csprojResolveAssemblyReference.cache
+C:\Users\Usuario\Documents\GitHub\DI\Cartas\Cartas\obj\Debug\Cartas.Form1.resources
+C:\Users\Usuario\Documents\GitHub\DI\Cartas\Cartas\obj\Debug\Cartas.Properties.Resources.resources
+C:\Users\Usuario\Documents\GitHub\DI\Cartas\Cartas\obj\Debug\Cartas.csproj.GenerateResource.Cache
+C:\Users\Usuario\Documents\GitHub\DI\Cartas\Cartas\obj\Debug\Cartas.exe
+C:\Users\Usuario\Documents\GitHub\DI\Cartas\Cartas\obj\Debug\Cartas.pdb
+C:\Users\Usuario\Documents\GitHub\DI\Cartas\Cartas\obj\Debug\Cartas.Selector.resources

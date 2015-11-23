@@ -36,7 +36,7 @@
             this.progressBar3 = new System.Windows.Forms.ProgressBar();
             this.progressBar4 = new System.Windows.Forms.ProgressBar();
             this.errorProvider1 = new System.Windows.Forms.ErrorProvider(this.components);
-            this.progressBar5 = new MP.ProgressBarr.Class1();
+            this.progressBar6 = new MP.ProgressBarr.Class1();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).BeginInit();
@@ -101,21 +101,21 @@
             // 
             this.errorProvider1.ContainerControl = this;
             // 
-            // progressBar5
+            // progressBar6
             // 
-            this.progressBar5.Location = new System.Drawing.Point(12, 197);
-            this.progressBar5.Maximum = 50;
-            this.progressBar5.Name = "progressBar5";
-            this.progressBar5.Size = new System.Drawing.Size(260, 23);
-            this.progressBar5.TabIndex = 6;
-            this.progressBar5.MouseClick += new System.Windows.Forms.MouseEventHandler(this.progressBar5_MouseClick);
+            this.progressBar6.Location = new System.Drawing.Point(12, 197);
+            this.progressBar6.Maximum = 50;
+            this.progressBar6.Name = "progressBar6";
+            this.progressBar6.Size = new System.Drawing.Size(260, 23);
+            this.progressBar6.TabIndex = 6;
+            this.progressBar6.MouseClick += new System.Windows.Forms.MouseEventHandler(this.progressBar5_MouseClick);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 262);
-            this.Controls.Add(this.progressBar5);
+            this.Controls.Add(this.progressBar6);
             this.Controls.Add(this.progressBar4);
             this.Controls.Add(this.progressBar3);
             this.Controls.Add(this.progressBar2);
@@ -140,7 +140,7 @@
         private System.Windows.Forms.ProgressBar progressBar3;
         private System.Windows.Forms.ProgressBar progressBar4;
         private System.Windows.Forms.ErrorProvider errorProvider1;
-        private Class1 progressBar5;
+        private Class1 progressBar6;
     }
 }
 

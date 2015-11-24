@@ -1,6 +1,6 @@
 ﻿namespace Cartas
 {
-    partial class Form1
+    partial class Login
     {
         /// <summary>
         /// Variable del diseñador necesaria.
@@ -32,7 +32,7 @@
             this.pass = new System.Windows.Forms.Label();
             this.txtUser = new System.Windows.Forms.TextBox();
             this.txtPass = new System.Windows.Forms.TextBox();
-            this.label1 = new System.Windows.Forms.Label();
+            this.error = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // user
@@ -69,29 +69,29 @@
             this.txtPass.TabIndex = 3;
             this.txtPass.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.ok_KeyPress);
             // 
-            // label1
+            // error
             // 
-            this.label1.AutoSize = true;
-            this.label1.ForeColor = System.Drawing.Color.Red;
-            this.label1.Location = new System.Drawing.Point(60, 181);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(148, 13);
-            this.label1.TabIndex = 4;
-            this.label1.Text = "Usuario/Contraseña no valido";
-            this.label1.Visible = false;
+            this.error.AutoSize = true;
+            this.error.ForeColor = System.Drawing.Color.Red;
+            this.error.Location = new System.Drawing.Point(60, 181);
+            this.error.Name = "error";
+            this.error.Size = new System.Drawing.Size(148, 13);
+            this.error.TabIndex = 4;
+            this.error.Text = "Usuario/Contraseña no valido";
+            this.error.Visible = false;
             // 
-            // Form1
+            // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 262);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.error);
             this.Controls.Add(this.txtPass);
             this.Controls.Add(this.txtUser);
             this.Controls.Add(this.pass);
             this.Controls.Add(this.user);
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.Name = "Login";
+            this.Text = "Login";
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -103,7 +103,7 @@
         private System.Windows.Forms.Label pass;
         private System.Windows.Forms.TextBox txtUser;
         private System.Windows.Forms.TextBox txtPass;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label error;
     }
 }
 

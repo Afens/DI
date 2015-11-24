@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Cartas
 {
-    public partial class Form1 : Form
+    public partial class Login : Form
     {
-        public Form1()
+        public Login()
         {
             InitializeComponent();
         }
@@ -23,12 +23,25 @@ namespace Cartas
             {
 
                 if (BD.validar(txtUser.Text, txtPass.Text))
+                {
 
-                    label1.Visible = false;
+                    error.Visible = false;
+                    Selector form2 = new Selector();
+                    this.Hide();
+                    form2.FormClosed += (s, args) => { this.Show(); };
+                    form2.Show();
+
+
+                }
                 else
-                    label1.Visible = true;
+                    error.Visible = true;
             }
             
+        }
+
+        private void Form2_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            throw new NotImplementedException();
         }
     }
 }

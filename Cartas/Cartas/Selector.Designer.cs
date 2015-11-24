@@ -28,42 +28,69 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.listBox1 = new System.Windows.Forms.ListBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.listaCartas = new System.Windows.Forms.ListBox();
+            this.tipos = new System.Windows.Forms.ComboBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // listBox1
+            // listaCartas
             // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(156, 64);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(120, 95);
-            this.listBox1.TabIndex = 0;
+            this.listaCartas.FormattingEnabled = true;
+            this.listaCartas.Location = new System.Drawing.Point(77, 64);
+            this.listaCartas.Name = "listaCartas";
+            this.listaCartas.Size = new System.Drawing.Size(120, 147);
+            this.listaCartas.TabIndex = 0;
+            this.listaCartas.SelectedIndexChanged += new System.EventHandler(this.listaCartas_SelectedIndexChanged);
+            this.listaCartas.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.listaCartas_KeyPress);
             // 
-            // comboBox1
+            // tipos
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(29, 90);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 21);
-            this.comboBox1.TabIndex = 1;
+            this.tipos.FormattingEnabled = true;
+            this.tipos.Items.AddRange(new object[] {
+            "Neutral",
+            "Mago",
+            "Cazador",
+            "Druida",
+            "Guerrero",
+            "Paladin",
+            "Sacerdote",
+            "Picaro",
+            "Chaman",
+            "Brujo"});
+            this.tipos.Location = new System.Drawing.Point(77, 37);
+            this.tipos.Name = "tipos";
+            this.tipos.Size = new System.Drawing.Size(121, 21);
+            this.tipos.TabIndex = 1;
+            this.tipos.SelectedIndexChanged += new System.EventHandler(this.tipos_SelectedIndexChanged);
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(224, 198);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(35, 13);
+            this.label1.TabIndex = 2;
+            this.label1.Text = "label1";
             // 
             // Selector
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 262);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.listBox1);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.tipos);
+            this.Controls.Add(this.listaCartas);
             this.Name = "Selector";
             this.Text = "Selector";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.ListBox listBox1;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ListBox listaCartas;
+        private System.Windows.Forms.ComboBox tipos;
+        private System.Windows.Forms.Label label1;
     }
 }

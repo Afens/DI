@@ -30,8 +30,6 @@ namespace Cartas
                     this.Hide();
                     form2.FormClosed += (s, args) => { this.Show(); };
                     form2.Show();
-
-
                 }
                 else
                     error.Visible = true;
@@ -39,9 +37,6 @@ namespace Cartas
             
         }
 
-        private void Form2_FormClosed(object sender, FormClosedEventArgs e)
-        {
-            throw new NotImplementedException();
-        }
+
     }
 }

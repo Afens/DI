@@ -1,0 +1,9 @@
+C:\Users\Usuario\Documents\GitHub\DI\MP.DragAndDrop\MP.DragAndDrop\bin\Debug\MP.DragAndDrop.exe.config
+C:\Users\Usuario\Documents\GitHub\DI\MP.DragAndDrop\MP.DragAndDrop\bin\Debug\MP.DragAndDrop.exe
+C:\Users\Usuario\Documents\GitHub\DI\MP.DragAndDrop\MP.DragAndDrop\bin\Debug\MP.DragAndDrop.pdb
+C:\Users\Usuario\Documents\GitHub\DI\MP.DragAndDrop\MP.DragAndDrop\obj\Debug\MP.DragAndDrop.csprojResolveAssemblyReference.cache
+C:\Users\Usuario\Documents\GitHub\DI\MP.DragAndDrop\MP.DragAndDrop\obj\Debug\MP.DragAndDrop.Form1.resources
+C:\Users\Usuario\Documents\GitHub\DI\MP.DragAndDrop\MP.DragAndDrop\obj\Debug\MP.DragAndDrop.Properties.Resources.resources
+C:\Users\Usuario\Documents\GitHub\DI\MP.DragAndDrop\MP.DragAndDrop\obj\Debug\MP.DragAndDrop.csproj.GenerateResource.Cache
+C:\Users\Usuario\Documents\GitHub\DI\MP.DragAndDrop\MP.DragAndDrop\obj\Debug\MP.DragAndDrop.exe
+C:\Users\Usuario\Documents\GitHub\DI\MP.DragAndDrop\MP.DragAndDrop\obj\Debug\MP.DragAndDrop.pdb

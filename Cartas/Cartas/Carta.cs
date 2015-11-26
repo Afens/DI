@@ -13,11 +13,19 @@ namespace Cartas
 {
     public partial class Carta : Form
     {
+        String usuario, carta;
+
         public Carta(String nombre)
         {
             InitializeComponent();
-            ArrayList datosCarta = BD.carta(nombre);
-            name.Text = datosCarta[0].ToString();
+            usuario = nombre;         
+            ArrayList datosCarta = BD.carta(usuario);
+            carta = datosCarta[0].ToString();
+            name.Text = carta;
+            name.CreateGraphics().RotateTransform(45f);
+            
+            foto.Image = new Bitmap("..//..//../img/"+ datosCarta[2].ToString()+".png");
+            marco.BackgroundImage = new Bitmap("..//..//../fondo/" + datosCarta[3].ToString() + ".png");
             desc.Text = datosCarta[1].ToString();
             cost.Text = datosCarta[4].ToString();
             atk.Text = datosCarta[5].ToString();

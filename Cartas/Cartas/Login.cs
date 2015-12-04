@@ -26,7 +26,7 @@ namespace Cartas
                 {
 
                     error.Visible = false;
-                    Selector form2 = new Selector();
+                    Selector form2 = new Selector(txtUser.Text);
                     this.Hide();
                     form2.FormClosed += (s, args) => { this.Show(); };
                     form2.Show();

@@ -33,6 +33,10 @@
             this.txtUser = new System.Windows.Forms.TextBox();
             this.txtPass = new System.Windows.Forms.TextBox();
             this.error = new System.Windows.Forms.Label();
+            this.imgClose = new System.Windows.Forms.PictureBox();
+            this.imgNewUser = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.imgClose)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgNewUser)).BeginInit();
             this.SuspendLayout();
             // 
             // user
@@ -47,7 +51,7 @@
             // pass
             // 
             this.pass.AutoSize = true;
-            this.pass.Location = new System.Drawing.Point(80, 122);
+            this.pass.Location = new System.Drawing.Point(80, 111);
             this.pass.Name = "pass";
             this.pass.Size = new System.Drawing.Size(61, 13);
             this.pass.TabIndex = 1;
@@ -59,10 +63,11 @@
             this.txtUser.Name = "txtUser";
             this.txtUser.Size = new System.Drawing.Size(100, 20);
             this.txtUser.TabIndex = 2;
+            this.txtUser.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.ok_KeyPress);
             // 
             // txtPass
             // 
-            this.txtPass.Location = new System.Drawing.Point(83, 138);
+            this.txtPass.Location = new System.Drawing.Point(83, 127);
             this.txtPass.Name = "txtPass";
             this.txtPass.PasswordChar = '*';
             this.txtPass.Size = new System.Drawing.Size(100, 20);
@@ -73,25 +78,47 @@
             // 
             this.error.AutoSize = true;
             this.error.ForeColor = System.Drawing.Color.Red;
-            this.error.Location = new System.Drawing.Point(60, 181);
+            this.error.Location = new System.Drawing.Point(61, 163);
             this.error.Name = "error";
             this.error.Size = new System.Drawing.Size(148, 13);
             this.error.TabIndex = 4;
             this.error.Text = "Usuario/Contraseña no valido";
             this.error.Visible = false;
             // 
+            // imgClose
+            // 
+            this.imgClose.Location = new System.Drawing.Point(254, 1);
+            this.imgClose.Name = "imgClose";
+            this.imgClose.Size = new System.Drawing.Size(28, 28);
+            this.imgClose.TabIndex = 6;
+            this.imgClose.TabStop = false;
+            // 
+            // imgNewUser
+            // 
+            this.imgNewUser.Location = new System.Drawing.Point(83, 193);
+            this.imgNewUser.Name = "imgNewUser";
+            this.imgNewUser.Size = new System.Drawing.Size(100, 32);
+            this.imgNewUser.TabIndex = 7;
+            this.imgNewUser.TabStop = false;
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(284, 262);
+            this.Controls.Add(this.imgNewUser);
+            this.Controls.Add(this.imgClose);
             this.Controls.Add(this.error);
             this.Controls.Add(this.txtPass);
             this.Controls.Add(this.txtUser);
             this.Controls.Add(this.pass);
             this.Controls.Add(this.user);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Login";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Login";
+            ((System.ComponentModel.ISupportInitialize)(this.imgClose)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.imgNewUser)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -104,6 +131,8 @@
         private System.Windows.Forms.TextBox txtUser;
         private System.Windows.Forms.TextBox txtPass;
         private System.Windows.Forms.Label error;
+        private System.Windows.Forms.PictureBox imgClose;
+        private System.Windows.Forms.PictureBox imgNewUser;
     }
 }
 

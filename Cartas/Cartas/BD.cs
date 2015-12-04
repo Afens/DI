@@ -18,6 +18,18 @@ namespace Cartas
             con.Open();
             return con;
         }
+        public static String clase(String carta)
+        {
+            SqlConnection con = conection();
+            SqlCommand orden = new SqlCommand();
+            orden.CommandText = String.Format("SELECT clase FROM Carta WHERE nombre='{0}' ", carta);
+            orden.CommandType = CommandType.Text;
+            orden.Connection = con;
+            String tipo = (String)orden.ExecuteScalar();
+            con.Close();
+            return tipo;
+        }
+
         public static Boolean validar(String user, String pass)
         {
             SqlConnection con = conection();
@@ -35,16 +47,39 @@ namespace Cartas
             else
                 return false;
         }
-        public static ArrayList listaCartas(String tipo)
+        public static ArrayList listaCartas(String usuario, String tipo,String filtro)
         {
             SqlConnection con = conection();
             SqlCommand orden = new SqlCommand();
-            orden.CommandText = String.Format("SELECT Nombre FROM Carta WHERE clase='{0}'",tipo);
+            if (tipo == "Todas")
+                orden.CommandText = String.Format("SELECT Nombre FROM Carta WHERE nombre like '%{0}%' AND nombre NOT IN (SELECT nombreCarta FROM tiene where nombreUsuario='{1}')", filtro, usuario);
+            else
+                orden.CommandText = String.Format("SELECT Nombre FROM Carta WHERE clase='{0}' AND nombre like '%{1}%' AND nombre NOT IN (SELECT nombreCarta FROM tiene where nombreUsuario='{2}')", tipo, filtro, usuario);
             orden.CommandType = CommandType.Text;
             orden.Connection = con;
 
             SqlDataReader result = orden.ExecuteReader();
             ArrayList listaCartas=new ArrayList();
+            while (result.Read())
+            {
+                listaCartas.Add(result.GetString(0));
+            }
+            con.Close();
+            return listaCartas;
+        }
+        public static ArrayList listaTengo(String usuario, String tipo, String filtro)
+        {
+            SqlConnection con = conection();
+            SqlCommand orden = new SqlCommand();
+            if (tipo == "Todas") 
+                orden.CommandText = String.Format("SELECT Nombre FROM Carta WHERE nombre like '%{0}%' AND nombre IN (SELECT nombreCarta FROM tiene where nombreUsuario='{1}')", filtro, usuario);
+            else
+                orden.CommandText = String.Format("SELECT Nombre FROM Carta WHERE clase='{0}' AND nombre like '%{1}%' AND nombre IN (SELECT nombreCarta FROM tiene where nombreUsuario='{2}')", tipo, filtro, usuario);
+            orden.CommandType = CommandType.Text;
+            orden.Connection = con;
+
+            SqlDataReader result = orden.ExecuteReader();
+            ArrayList listaCartas = new ArrayList();
             while (result.Read())
             {
                 listaCartas.Add(result.GetString(0));

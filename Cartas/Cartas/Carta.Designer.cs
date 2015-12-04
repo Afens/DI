@@ -43,11 +43,11 @@
             // name
             // 
             this.name.AutoSize = true;
-            this.name.Location = new System.Drawing.Point(225, 299);
+            this.name.Location = new System.Drawing.Point(126, 299);
             this.name.Name = "name";
-            this.name.Size = new System.Drawing.Size(42, 13);
+            this.name.Size = new System.Drawing.Size(235, 13);
             this.name.TabIndex = 0;
-            this.name.Text = "nombre";
+            this.name.Text = " nombre nombre nombre nombre nombre nombre";
             // 
             // cost
             // 
@@ -129,7 +129,9 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(691, 592);
             this.Controls.Add(this.marco);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Carta";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Carta";
             ((System.ComponentModel.ISupportInitialize)(this.foto)).EndInit();
             this.marco.ResumeLayout(false);

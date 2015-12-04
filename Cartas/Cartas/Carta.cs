@@ -13,19 +13,20 @@ namespace Cartas
 {
     public partial class Carta : Form
     {
-        String usuario, carta;
+        String usuario;
 
-        public Carta(String nombre)
+        public Carta(String user, String carta)
         {
             InitializeComponent();
-            usuario = nombre;         
-            ArrayList datosCarta = BD.carta(usuario);
-            carta = datosCarta[0].ToString();
+            usuario = user;         
+            ArrayList datosCarta = BD.carta(carta);
             name.Text = carta;
             name.CreateGraphics().RotateTransform(45f);
-            
-            foto.Image = new Bitmap("..//..//../img/"+ datosCarta[2].ToString()+".png");
-            marco.BackgroundImage = new Bitmap("..//..//../fondo/" + datosCarta[3].ToString() + ".png");
+
+            foto.Image=Image.FromFile(System.IO.Path.GetFullPath(@"..//..//img//foto//" + datosCarta[2].ToString() + ".png"));
+            marco.BackgroundImage = Image.FromFile(System.IO.Path.GetFullPath(@"..//..//img//fondo//" + datosCarta[3].ToString() + ".png"));
+            //foto.Image = new Bitmap("..//..//..//img//"+ datosCarta[2].ToString()+".png");
+            //marco.BackgroundImage = new Bitmap("..//..//..//fondo//" + datosCarta[3].ToString() + ".png");
             desc.Text = datosCarta[1].ToString();
             cost.Text = datosCarta[4].ToString();
             atk.Text = datosCarta[5].ToString();

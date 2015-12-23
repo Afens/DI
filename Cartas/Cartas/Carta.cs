@@ -23,14 +23,18 @@ namespace Cartas
             name.Text = carta;
             name.CreateGraphics().RotateTransform(45f);
 
-            foto.Image=Image.FromFile(System.IO.Path.GetFullPath(@"..//..//img//foto//" + datosCarta[2].ToString() + ".png"));
-            marco.BackgroundImage = Image.FromFile(System.IO.Path.GetFullPath(@"..//..//img//fondo//" + datosCarta[3].ToString() + ".png"));
-            //foto.Image = new Bitmap("..//..//..//img//"+ datosCarta[2].ToString()+".png");
-            //marco.BackgroundImage = new Bitmap("..//..//..//fondo//" + datosCarta[3].ToString() + ".png");
+            foto.Image=Image.FromFile(System.IO.Path.GetFullPath(@"..//..//img//picture//" + datosCarta[2].ToString() + ".png"));
+
+            marco.BackgroundImage = Image.FromFile(System.IO.Path.GetFullPath(@"..//..//img//background//" + datosCarta[3].ToString() + ".png"));         
             desc.Text = datosCarta[1].ToString();
             cost.Text = datosCarta[4].ToString();
             atk.Text = datosCarta[5].ToString();
             hp.Text = datosCarta[6].ToString();
+        }
+
+        private void exit_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

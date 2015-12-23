@@ -42,14 +42,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Cartas.exe" size="142824">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Cartas.exe" size="2149888">
       <assemblyIdentity name="Cartas" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>ZH1O1OleLfesI0RHPxfyayyzijA2eYFSuVWvWp0yGG8=</dsig:DigestValue>
+        <dsig:DigestValue>MaXeo0Vwx0Wxs6W2knI46EvTJbsNpidN4IbF2KdgADA=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -62,7 +62,7 @@
       <dsig:DigestValue>6N7MliNbVJSIAIPrecIshMbZ7zEoKLr5SQvud4LDUOw=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="img\fondo\brujo.png" size="55521">
+  <file name="img\background\brujo.png" size="55521">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
@@ -71,7 +71,7 @@
       <dsig:DigestValue>QFOx5G7xiAwIQV1Dhshki7VCT+ntOd98KC+p7zhde5E=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="img\fondo\cazador.png" size="55457">
+  <file name="img\background\cazador.png" size="55457">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
@@ -80,7 +80,7 @@
       <dsig:DigestValue>vt7G/uEIaHgYAJoS1wJN4RXyH0bBAbwhwDNrl8GcIcs=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="img\fondo\chaman.png" size="56665">
+  <file name="img\background\chaman.png" size="56665">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
@@ -89,7 +89,7 @@
       <dsig:DigestValue>zjAXovoaDFjXkMzk5zLXgwT2NPYKA2PdY41rCOZuqSM=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="img\fondo\dragon.png" size="4387">
+  <file name="img\background\dragon.png" size="4387">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
@@ -98,7 +98,7 @@
       <dsig:DigestValue>2b2+ItoiaZbQNnMLzqYH/MWkEM2H1WNM3PKLHuN0uwU=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="img\fondo\druida.png" size="56978">
+  <file name="img\background\druida.png" size="56978">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
@@ -107,7 +107,7 @@
       <dsig:DigestValue>sQGfVhQ+7JxdGqNVk3OsoFde/DM7nkPSJBVFlAZLGVE=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="img\fondo\gem.png" size="3301">
+  <file name="img\background\gem.png" size="3301">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
@@ -116,7 +116,7 @@
       <dsig:DigestValue>BkA+21ILxoSBKhXNO7XXjNa2Vy9T1U9wV/SS6A4lL+w=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="img\fondo\guerrero.png" size="56951">
+  <file name="img\background\guerrero.png" size="56951">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
@@ -125,7 +125,7 @@
       <dsig:DigestValue>Mv5wOe7afQuTooSSeUhXB7hl3Q8K1SLnV6wPa6Qw+yM=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="img\fondo\mago.png" size="57891">
+  <file name="img\background\mago.png" size="57891">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
@@ -134,7 +134,7 @@
       <dsig:DigestValue>gOeGmyHEPMnboTyL6Yd4tjnU7phuRatQs3228jwMjYA=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="img\fondo\neutral.png" size="59900">
+  <file name="img\background\neutral.png" size="59900">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
@@ -143,7 +143,7 @@
       <dsig:DigestValue>b9TcVKFEzqF8CIM2KY7uGygXje6cA4eGoX98lZ4tQ+I=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="img\fondo\paladin.png" size="58221">
+  <file name="img\background\paladin.png" size="58221">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
@@ -152,7 +152,7 @@
       <dsig:DigestValue>geW+4E5//t33aKUWdXwjrY58SWYsLVDLe4kFfEy5ufs=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="img\fondo\picaro.png" size="58255">
+  <file name="img\background\picaro.png" size="58255">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
@@ -161,7 +161,7 @@
       <dsig:DigestValue>nVDWnHAR7iecEgGMHMwrO1h5h/7S3KZJT5c//ytnz6Q=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="img\fondo\sacerdote.png" size="60104">
+  <file name="img\background\sacerdote.png" size="60104">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
@@ -170,7 +170,16 @@
       <dsig:DigestValue>MGTuraIAJ8XhleOZ3s2zpEdF47Z+XRJrIYIjB5Inmhw=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="img\foto\arc.png" size="57878">
+  <file name="img\picture\alx.png" size="50218">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>j+bHxCNpVDVnF495TVKaueS3Dln2RC/c3e1a+t8nMvM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="img\picture\arc.png" size="57878">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
@@ -179,13 +188,13 @@
       <dsig:DigestValue>vp1vB/gaGlyPhB/d5XzXbRVVHx1/hGgf2/4/yXuZI4g=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="img\foto\pollo.png" size="50218">
+  <file name="Resources\Red_x.gif" size="525045">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>j+bHxCNpVDVnF495TVKaueS3Dln2RC/c3e1a+t8nMvM=</dsig:DigestValue>
+      <dsig:DigestValue>qRFvtZZv+jYEQfygNlf9mgWkKtP2LeCzMPmKnQ5yG+g=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>

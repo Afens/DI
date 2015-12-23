@@ -58,7 +58,7 @@
     <GenerateManifests>true</GenerateManifests>
   </PropertyGroup>
   <PropertyGroup>
-    <SignManifests>true</SignManifests>
+    <SignManifests>false</SignManifests>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -109,6 +109,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="Selector.resx">
       <DependentUpon>Selector.cs</DependentUpon>
@@ -141,20 +142,36 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
-    <Content Include="img\fondo\brujo.png" />
-    <Content Include="img\fondo\cazador.png" />
-    <Content Include="img\fondo\chaman.png" />
-    <Content Include="img\fondo\dragon.png" />
-    <Content Include="img\fondo\druida.png" />
-    <Content Include="img\fondo\gem.png" />
-    <Content Include="img\fondo\guerrero.png" />
-    <Content Include="img\fondo\mago.png" />
-    <Content Include="img\fondo\neutral.png" />
-    <Content Include="img\fondo\paladin.png" />
-    <Content Include="img\fondo\picaro.png" />
-    <Content Include="img\fondo\sacerdote.png" />
-    <Content Include="img\foto\arc.png" />
-    <Content Include="img\foto\pollo.png" />
+    <Content Include="img\background\brujo.png" />
+    <Content Include="img\background\cazador.png" />
+    <Content Include="img\background\chaman.png" />
+    <Content Include="img\background\dragon.png" />
+    <Content Include="img\background\druida.png" />
+    <Content Include="img\background\gem.png" />
+    <Content Include="img\background\guerrero.png" />
+    <Content Include="img\background\mago.png" />
+    <Content Include="img\background\neutral.png" />
+    <Content Include="img\background\paladin.png" />
+    <Content Include="img\background\picaro.png" />
+    <Content Include="img\background\sacerdote.png" />
+    <Content Include="img\picture\arc.png" />
+    <Content Include="img\picture\alx.png" />
+    <None Include="Resources\Warrior_icon.png" />
+    <None Include="Resources\Warlock_icon.png" />
+    <None Include="Resources\Shaman_icon.png" />
+    <None Include="Resources\Rogue_icon.png" />
+    <None Include="Resources\Image1.bmp" />
+    <None Include="Resources\Druid_icon.png" />
+    <None Include="Resources\Hunter_icon.png" />
+    <None Include="Resources\Mage_icon.png" />
+    <None Include="Resources\Paladin_icon.png" />
+    <None Include="Resources\Priest_icon.png" />
+    <None Include="Resources\Gema.png" />
+    <Content Include="Resources\Red_x.gif" />
+    <None Include="Resources\original1.png" />
+    <None Include="Resources\hearthstone-deck.jpg" />
+    <None Include="Resources\hearthstone_heroes_of_warcraft_box_sword_hd-wallpaper-92185.jpg" />
+    <None Include="Resources\hearthstone_1079244t.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

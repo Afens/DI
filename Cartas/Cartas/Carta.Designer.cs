@@ -35,9 +35,13 @@
             this.hp = new System.Windows.Forms.Label();
             this.foto = new System.Windows.Forms.PictureBox();
             this.marco = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.desc = new System.Windows.Forms.Label();
+            this.exit = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.foto)).BeginInit();
             this.marco.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.exit)).BeginInit();
             this.SuspendLayout();
             // 
             // name
@@ -52,11 +56,11 @@
             // cost
             // 
             this.cost.AutoSize = true;
-            this.cost.Font = new System.Drawing.Font("Microsoft Sans Serif", 30F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.cost.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.cost.Location = new System.Drawing.Point(70, 36);
+            this.cost.Font = new System.Drawing.Font("Tw Cen MT", 30F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.cost.ForeColor = System.Drawing.SystemColors.Menu;
+            this.cost.Location = new System.Drawing.Point(71, 32);
             this.cost.Name = "cost";
-            this.cost.Size = new System.Drawing.Size(43, 46);
+            this.cost.Size = new System.Drawing.Size(41, 47);
             this.cost.TabIndex = 1;
             this.cost.Text = "0";
             // 
@@ -102,16 +106,26 @@
             this.marco.BackColor = System.Drawing.Color.Transparent;
             this.marco.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("marco.BackgroundImage")));
             this.marco.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.marco.Controls.Add(this.pictureBox1);
+            this.marco.Controls.Add(this.foto);
             this.marco.Controls.Add(this.desc);
             this.marco.Controls.Add(this.hp);
             this.marco.Controls.Add(this.name);
             this.marco.Controls.Add(this.cost);
             this.marco.Controls.Add(this.atk);
-            this.marco.Controls.Add(this.foto);
-            this.marco.Location = new System.Drawing.Point(12, 12);
+            this.marco.Location = new System.Drawing.Point(185, 80);
             this.marco.Name = "marco";
             this.marco.Size = new System.Drawing.Size(464, 575);
             this.marco.TabIndex = 8;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Cartas.Properties.Resources.gem;
+            this.pictureBox1.Location = new System.Drawing.Point(228, 324);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(30, 37);
+            this.pictureBox1.TabIndex = 8;
+            this.pictureBox1.TabStop = false;
             // 
             // desc
             // 
@@ -123,11 +137,26 @@
             this.desc.TabIndex = 7;
             this.desc.Text = resources.GetString("desc.Text");
             // 
+            // exit
+            // 
+            this.exit.BackColor = System.Drawing.Color.Transparent;
+            this.exit.BackgroundImage = global::Cartas.Properties.Resources.X;
+            this.exit.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.exit.Location = new System.Drawing.Point(822, 12);
+            this.exit.Name = "exit";
+            this.exit.Size = new System.Drawing.Size(27, 24);
+            this.exit.TabIndex = 9;
+            this.exit.TabStop = false;
+            this.exit.Click += new System.EventHandler(this.exit_Click);
+            // 
             // Carta
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(691, 592);
+            this.BackgroundImage = global::Cartas.Properties.Resources.hearthstone_heroes_of_warcraft_box_sword_hd_wallpaper_92185;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(861, 838);
+            this.Controls.Add(this.exit);
             this.Controls.Add(this.marco);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Carta";
@@ -136,6 +165,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.foto)).EndInit();
             this.marco.ResumeLayout(false);
             this.marco.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.exit)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -149,5 +180,7 @@
         private System.Windows.Forms.PictureBox foto;
         private System.Windows.Forms.Panel marco;
         private System.Windows.Forms.Label desc;
+        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox exit;
     }
 }

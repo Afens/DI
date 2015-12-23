@@ -24,12 +24,11 @@ namespace Cartas
 
                 if (BD.validar(txtUser.Text, txtPass.Text))
                 {
-
-                    error.Visible = false;
-                    Selector form2 = new Selector(txtUser.Text);
-                    this.Hide();
-                    form2.FormClosed += (s, args) => { this.Show(); };
-                    form2.Show();
+                    logear();                  
+                }
+                else if (registro.Checked) {
+                    BD.crearUsuario(txtUser.Text, txtPass.Text);
+                    logear();
                 }
                 else
                     error.Visible = true;
@@ -37,6 +36,23 @@ namespace Cartas
             
         }
 
+        private void logear()
+        {
+            error.Visible = false;
+            Selector form2 = new Selector(txtUser.Text);
+            this.Hide();
+            form2.FormClosed += (s, args) => { this.Show(); };
+            form2.Show();
+        }
 
+        private void imgClose_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void acercaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Creado Por Manuel Espinosa de los Monteros Delgado");
+        }
     }
 }

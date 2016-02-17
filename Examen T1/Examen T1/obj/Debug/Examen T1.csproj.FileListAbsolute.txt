@@ -1,0 +1,11 @@
+C:\Users\Usuario\Documents\GitHub\DI\Examen T1\Examen T1\bin\Debug\Examen T1.exe.config
+C:\Users\Usuario\Documents\GitHub\DI\Examen T1\Examen T1\bin\Debug\Examen T1.exe
+C:\Users\Usuario\Documents\GitHub\DI\Examen T1\Examen T1\bin\Debug\Examen T1.pdb
+C:\Users\Usuario\Documents\GitHub\DI\Examen T1\Examen T1\obj\Debug\Examen T1.csprojResolveAssemblyReference.cache
+C:\Users\Usuario\Documents\GitHub\DI\Examen T1\Examen T1\obj\Debug\Examen_T1.Form1.resources
+C:\Users\Usuario\Documents\GitHub\DI\Examen T1\Examen T1\obj\Debug\Examen_T1.Padres.resources
+C:\Users\Usuario\Documents\GitHub\DI\Examen T1\Examen T1\obj\Debug\Examen_T1.Properties.Resources.resources
+C:\Users\Usuario\Documents\GitHub\DI\Examen T1\Examen T1\obj\Debug\Examen_T1.Raton.resources
+C:\Users\Usuario\Documents\GitHub\DI\Examen T1\Examen T1\obj\Debug\Examen T1.csproj.GenerateResource.Cache
+C:\Users\Usuario\Documents\GitHub\DI\Examen T1\Examen T1\obj\Debug\Examen T1.exe
+C:\Users\Usuario\Documents\GitHub\DI\Examen T1\Examen T1\obj\Debug\Examen T1.pdb
